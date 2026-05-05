@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: url('./fonts/BagossCondensed-Regular.woff2') format('woff2');
+    font-weight: 600;
+}
+
+.body {
+    font-family: inter;
+    font-family: 'Bagoss Condensed';
+}
+
+.my-wrapper {
+    /* max-width: 1000px; */
+
+}
+
+.brand {
+    margin-right: 100px;
+    opacity: 1;
+}
+
+.brand:hover {
+    opacity: 0.8;
+}
+
+.demo {
+    font-family: inter;
+}
+
+.app {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar-nav {
+    /* border-top: 2px solid black; */
+    margin-top: 20px;
+    font-family: inter;
+    font-weight: 700;
+    font-size: large;
+}
+
+.nav-item {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+}
+
+.log-in {
+    /* padding-left: 180px; */
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-family: inter;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.log-in:hover {
+    opacity: 0.5;
+}
+
+.log-inn {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-family: inter;
+    justify-content: center;
+    opacity: 1;
+}
+
+.log-inn:hover {
+    border: 2px solid rgba(0, 0, 0, 0.444);
+}
+
+.demo {
+    opacity: 1;
+}
+
+.demo:hover {
+    opacity: 0.7;
+}
+
+
+.base {
+    background-color: #fef0d8;
+    padding-top: 15px;
+    justify-content: center;
+    font-family: inter;
+    font-weight: bold;
+    font-size: small;
+}
+
+.g-icon {
+    justify-content: center;
+}
+
+.base1 {
+    justify-content: center;
+
+}
+
+.bglb {
+    position: relative;
+    width: 5%;
+}
+
+.un {
+    position: absolute;
+    width: 3%;
+    left: 190px;
+    bottom: 22px;
+}
+
+.g-icon1 {
+    background-color: transparent;
+    height: 30px;
+    position: relative;
+    border: none;
+    padding: 5px;
+
+
+}
+
+.bglb1 {
+    width: 50%;
+    bottom: 0;
+}
+
+.un1 {
+    position: absolute;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 100%;
+    top: 3px;
+}
+
+.g-icon1:hover {
+    background-color: #fef0d898;
+}
+
+.en {
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.bglb3 {
+    width: 50%;
+    bottom: 0;
+
+}
+
+.g-icon3 {
+    background-color: transparent;
+    height: 30px;
+    position: relative;
+    border: none;
+    padding: 5px;
+    margin: auto;
+}
+
+.un3 {
+    position: absolute;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 100%;
+    top: 3px;
+}
+
+.g-icon3:hover {
+    background-color: #fef0d898;
+}
+
+.en3 {
+    font-family: Inter;
+    font-weight: 900;
+}
+
+.nav-link {
+    opacity: 1;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+.nav-link i.fa-chevron-down {
+    transition: transform 0.3s ease;
+}
+
+.nav-link.show i.fa-chevron-down {
+    transform: rotate(-180deg);
+}
+
+.block-icon {
+    background-color: #ded5e9;
+    border-radius: 10px;
+    padding: 8px 8px;
+    transform: background-color 0.3s ease;
+}
+
+.nav-hover-item {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.nav-hover-item:hover {
+    background-color: #fef0d8d1;
+}
+
+.parnavi:hover .block-icon {
+    background-color: #826cbd;
+}
+
+.bottom-hover-item {
+    background-color: #fafafa;
+    width: 80%;
+    height: 100%;
+
+}
+
+.bottom-hover-item:hover {
+    background-color: #fef0d8;
+}
+
+.button-hover-img {
+    transition: transform 0.3s ease;
+}
+
+.parho:hover .button-hover-img {
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    pointer-events: auto;
+}
+
+.soluimg {
+    transition: transform 0.3s ease;
+}
+
+/* .soludiv {
+    transition: transform 0.3s ease;
+} */
+
+.soluimg:hover {
+    transform: scale(1.02);
+}
+
+.soluicon {
+    transition: transform 0.5s ease;
+}
+
+/* .soluicon:hover {
+    transform: translate(9px);
+} */
+
+.soludiv:hover .soluicon {
+    transform: translate(9px);
+}
+
+.uc {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.uc:hover {
+    background-color: #fef0d8d1;
+}
+
+.first {
+    background-color: #fef0d8d1;
+}
+
+.bag {
+    font-family: 'Bagoss Condensed';
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-size: 40px;
+    line-height: 0.92;
+}
+
+.mapg {
+    background-color: #4d446c;
+    transition: background-color 0.3s ease;
+}
+
+.mapg:hover {
+    background-color: #503cb4;
+}
+
+.mapg2 {
+    background-color: #5938b7;
+    transition: background-color 0.3s ease;
+}
+
+.mapg2:hover {
+    background-color: #3c288c;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+    gap: 15px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+.carousel-indicators .active {
+    background-color: #c4b1f9;
+    transform: scale(1.5);
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 0.8s ease-in-out;
+}
+
+.carousel1 {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+
+.track1 {
+    width: 1400px;
+    display: flex;
+    gap: 30px;
+    animation: carousel2 13s linear infinite;
+    opacity: 0.7;
+}
+
+.track2 {
+    width: 1400px;
+    display: flex;
+    gap: 30px;
+    animation: carousel2 15s linear infinite;
+    opacity: 0.7
+}
+
+.track2 img {
+    width: 100px;
+    margin-left: 30px;
+}
+
+.track1 img {
+    width: 100px;
+    margin-left: 30px;
+
+}
+
+@keyframes carousel2 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+.carousel1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 180px;
+    height: 100%;
+    background: linear-gradient(to right, white, transparent);
+    z-index: 2;
+}
+
+.carousel1::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 180px;
+    height: 100%;
+    background: linear-gradient(to left, white, transparent);
+    z-index: 2;
+    top: 0;
+}
+
+.carousel1:hover .track1,
+.carousel1:hover .track2 {
+    filter: blur(6px);
+    animation-play-state: paused;
+}
+
+
+.track1,
+.track2 {
+    transition: filter 0.5s ease;
+}
+
+.track1,
+.track2 {
+    transition: filter 0.5s ease;
+}
+
+.center-btn-hover {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.carousel1:hover .center-btn-hover {
+    opacity: 1;
+}
+
+.center-btn-hover button {
+    border: none;
+    background: #5b34c4;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.center-btn-hover span {
+    background: #b8a2ff;
+    color: #3c1d99;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.card-sec {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+/* Hover effect on xl */
+@media (min-width: 1200px) {
+
+    .card-sec {
+        box-shadow: none;
+    }
+
+    .card-sec:hover {
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.103);
+        transform: translateY(-4px);
+    }
+
+    .card-sec .arrow {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: 0.3s ease;
+    }
+
+    .card-sec:hover .arrow {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* md, lg, sm and below */
+@media (max-width: 1199px) {
+
+    .card-sec .arrow {
+        opacity: 1;
+    }
+}
+
+/* TOP BUTTONS */
+.custom-tab-btn {
+    border: none;
+    background: transparent;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.custom-tab-btn:hover {
+    background: rgba(128, 128, 128, 0.095);
+    border-radius: 3px;
+}
+
+
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: #cfcfcf;
+    border-radius: 50%;
+    position: absolute;
+    top: -9px;
+}
+
+.dot-1 {
+    left: 0%;
+}
+
+.dot-2 {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot-3 {
+    right: 0%;
+}
+
+
+.info-card {
+    border-radius: 20px;
+    padding: 35px;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* BLUE THEME */
+.theme-blue {
+    background-color: #d8ebff;
+}
+
+/* YELLOW THEME */
+.theme-yellow {
+    background-color: #f5ecc9;
+}
+
+/* PURPLE THEME */
+.theme-purple {
+    background-color: #f6f0fe;
+}
+
+.tab-box {
+    font-weight: 700;
+    color: #6b6b6b;
+}
+
+.icon-box {
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+/* PAYROLL  */
+.custom-tab-btn.active .payroll-theme {
+    background-color: #d8ebff;
+    color: black;
+}
+
+.custom-tab-btn.active .payroll-theme .icon-box {
+    background-color: #b1d8fc;
+}
+
+/* HR */
+.custom-tab-btn.active .hr-theme {
+    background-color: #f5ecc9;
+    color: black;
+}
+
+.custom-tab-btn.active .hr-theme .icon-box {
+    background-color: #ffe27c;
+}
+
+/* IT */
+.custom-tab-btn.active .it-theme {
+    background-color: #f6f0fe;
+    color: black;
+}
+
+.custom-tab-btn.active .it-theme .icon-box {
+    background-color: #dac5ff;
+}
+
+/* HIRE */
+.custom-tab-btn.active .hire-theme {
+    background-color: #f5ecc9;
+    color: black;
+}
+
+.custom-tab-btn.active .hire-theme .icon-box {
+    background-color: #ffe27c;
+}
+
+.accordion,
+.accordion-item,
+.accordion-body {
+    background-color: #000 ;
+    color: white;
+}
+
+.accordion-button {
+    background-color: #000;
+    color: white;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #000;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+
+.accordion-item {
+    border-color: #2b2b2b;
+}
+
+.accordion p {
+    color: #9f9f9f;
+}
+
+
+.accordion h5 {
+    color: white;
+}
+
+.feature-btn {
+    text-align: left;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.feature-btn:hover {
+    background-color: rgba(255, 255, 255, 0.03) ;
+    border-radius: 16px;
+}
+
+.scroll-wrapper {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+&::-webkit-scrollbar {
+    display: none;
+}
+
+{-ms-overflow-style:none;
+scrollbar-width:none;}
