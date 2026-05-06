@@ -663,11 +663,15 @@
     overflow-x: auto;
     padding: 20px;
     white-space: nowrap;
-}
 
 &::-webkit-scrollbar {
     display: none;
 }
 
-{-ms-overflow-style:none;
-scrollbar-width:none;}
+-ms-overflow-style:none;
+scrollbar-width:none;
+}
+
+.h-footer:hover {
+    color
+}
